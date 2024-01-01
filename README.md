@@ -1,6 +1,8 @@
 # New Year's Countdown
 
-This project is a simple static webpage that displays a countdown to the next New Year's Day. 
+This project is a simple static webpage that displays a countdown to the next New Year's Day. (I made it in an hour because I was too lazy to lookup a countdown online) 
+
+
 
 ## Project Structure
 
