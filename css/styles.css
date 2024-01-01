@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+}
+
+h1:hover {
+    font-weight: bold;
+    border-width: 6px;
+}
+
+.countdown {
+    font-size: 2em;
+    color: #777;
+}
+#countdown {
+    color: gray;
+    transition: color 2s ease;
+}
+
+#countdown:hover {
+    color: black;
+}
+
+#days, #hours, #minutes, #seconds {
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin: 5px;
+    display: none; /* Add this line */
+}
